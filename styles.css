@@ -134,3 +134,33 @@ ul > li > a {
   text-align: justify;
   margin-bottom: 20px;
 }
+#education > div > table > thead {
+  background: #027dff;
+  color: white;
+}
+#education > div > table > thead > tr > th,
+td {
+  padding-left: 10px;
+}
+.grid {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.grid > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#piazza-button {
+  padding: 15px 25px;
+  background: #027dff;
+  color: white;
+  font-weight: bolder;
+  border: none;
+  border-radius: 25px;
+  margin-top: 10px;
+  cursor: pointer;
+}
