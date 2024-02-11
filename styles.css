@@ -164,3 +164,7 @@ td {
   margin-top: 10px;
   cursor: pointer;
 }
+footer {
+  padding-left: 10% !important;
+  padding-right: 10% !important;
+}
